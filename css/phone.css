@@ -7,12 +7,19 @@
 }
 
 .phone-image {
-	inline-size: 16.5rem;
+	position: absolute;
+	inline-size: 264px;
+	block-size: 31.4531rem;
 	margin: 0;
+	background: url('../assets/images/iphone.png') no-repeat;
+	background-size: cover;
 }
 
-.phone img {
-	inline-size: 100%;
-	block-size: auto;
-	vertical-align: middle;
+.phone-image video {
+	position: absolute;
+	inset-block-start: 4.4375rem;
+	inset-inline-start: 31px;
+	object-fit: cover;
+	inline-size: 12.5625rem;
+	block-size: 22.1875rem;
 }
