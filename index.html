@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Faster</title>
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/header.css" />
+		<link rel="stylesheet" href="./css/burger-button.css" />
+		<link rel="stylesheet" href="./css/menu.css" />
+		<link rel="stylesheet" href="./css/hero.css" />
+		<link rel="stylesheet" href="./css/phone.css" />
+		<link rel="stylesheet" href="./css/grid-container.css" />
+		<link rel="stylesheet" href="./css/button.css" />
+		<link rel="stylesheet" href="./css/link.css" />
+	</head>
+	<body class="body">
+		<header class="header">
+			<figure class="header-logo">
+				<a href="./index.html" aria-current="page">
+					<img
+						src="./assets/images/logo.png"
+						width="92"
+						height="19.2"
+						alt="Logo de Faster"
+					/>
+				</a>
+			</figure>
+			<div class="menu-container">
+				<nav class="menu">
+					<ul class="menu-list">
+						<li><a class="menu-item" href="#">How Fast?</a></li>
+						<li><a class="menu-item" href="#">Sellers</a></li>
+						<li><a class="menu-item" href="#">Store</a></li>
+						<li><a class="menu-item" href="#">Docs</a></li>
+						<li><a class="menu-item" href="#">Help</a></li>
+					</ul>
+					<a class="button is-login" href="#">Fast Login</a>
+				</nav>
+			</div>
+			<button
+				class="burgerButton"
+				aria-label="Desplegar menu"
+				aria-pressed="false"
+				aria-expanded="false"
+			>
+				<div class="burgerButton-middle"></div>
+			</button>
+		</header>
+		<main class="gridContainer">
+			<div class="phone">
+				<figure class="phone-image">
+					<img src="./assets/images/iphone.png" alt="" />
+				</figure>
+			</div>
+			<section class="hero">
+				<article class="hero-details">
+					<h3 class="hero-title">
+						One click.<br />
+						No passwords.<br />
+						The world's fastest checkout.
+					</h3>
+					<p class="hero-description">
+						Forget passwords. Skip long entry forms. Shop online and securely
+						check out with a single click. It’s safe, easy, and yep, fast.
+					</p>
+					<a class="button" href="#">Sing up for Fast</a>
+					<a class="link" href="#">Get Fast for your business</a>
+				</article>
+			</section>
+		</main>
+		<script src="./js/main.js" type="module"></script>
+	</body>
+</html>

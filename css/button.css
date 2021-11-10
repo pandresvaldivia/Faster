@@ -1,0 +1,43 @@
+.button {
+	font: var(--button);
+	color: var(--white);
+	text-decoration: none;
+	padding-block-end: 0.75rem;
+	padding-block-start: 0.75rem;
+	padding-inline-end: 3.8125rem;
+	padding-inline-start: 3.8125rem;
+	border: 2px solid var(--white);
+	border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-ms-border-radius: 0.5rem;
+	-o-border-radius: 0.5rem;
+}
+
+.button.is-black {
+	padding-inline-end: 61px;
+	padding-inline-start: 61px;
+	background: var(--black);
+	border: none;
+}
+
+.button.is-login {
+	color: var(--black);
+	background: var(--white);
+}
+
+/* .button.is-login {
+	font: var(--button);
+	padding-block-end: 0.3125rem;
+	padding-block-start: 0.3125rem;
+	padding-inline-end: 1rem;
+	padding-inline-start: 1rem;
+	color: var(--black);
+	background: var(--white);
+	text-decoration: none;
+	border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-ms-border-radius: 0.5rem;
+	-o-border-radius: 0.5rem;
+} */

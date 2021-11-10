@@ -1,0 +1,22 @@
+:root {
+	--primary: #fed941;
+	--white: #ffffff;
+	--grey: #808080;
+	--black: #000000;
+	--fontBase: 'Inter', sans-serif;
+	--headline3: extra bold 2.875rem/3.5rem var(--fontBase);
+	--headline2: 700 3rem/3.625rem var(--fontBase);
+	--headline4: 700 1.75rem / normal var(--fontBase);
+	--headline5: 700 1.5625rem / normal var(--fontBase);
+	--button: 700 1.125rem/1.75rem var(--fontBase);
+	--caption: 400 0.75rem/1.375rem var(--fontBase);
+	--body1-regular: 400 1.125rem/1.6875rem var(--fontBase);
+	--body1-bold: 700 1.125rem/1.6875rem var(--fontBase);
+	--body2-regular: 400 1rem/1.375rem var(--fontBase);
+	--body2-bold: 700 1rem/1.1875rem var(--fontBase);
+	--link: 400 1rem/1.6875rem var(--fontBase);
+}
+
+.body {
+	margin: 0;
+}

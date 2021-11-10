@@ -1,0 +1,4 @@
+.link {
+	font: var(--link);
+	color: var(--grey);
+}
