@@ -1,0 +1,25 @@
+.brandsSection {
+	block-size: 40.75rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-block-end: 4rem;
+	justify-content: flex-end;
+	box-sizing: border-box;
+	gap: 1.5rem;
+}
+
+.brandsSection-logo {
+	margin: 0;
+	block-size: 3.5rem;
+}
+
+.brandsSection-logo:nth-of-type(2) {
+	block-size: 4.5625rem;
+}
+
+.brandsSection-logo img {
+	block-size: 100%;
+	inline-size: auto;
+	vertical-align: middle;
+}
