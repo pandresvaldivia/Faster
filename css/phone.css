@@ -4,15 +4,20 @@
 	inline-size: 100%;
 	display: flex;
 	justify-content: center;
+	block-size: 31.4531rem;
 }
 
 .phone-image {
 	position: absolute;
-	inline-size: 264px;
-	block-size: 31.4531rem;
+	inline-size: 16.5rem;
+	block-size: inherit;
 	margin: 0;
 	background: url('../assets/images/iphone.png') no-repeat;
 	background-size: cover;
+}
+
+.phone.is-copy {
+	position: static;
 }
 
 .phone-image video {
