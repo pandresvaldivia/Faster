@@ -1,0 +1,15 @@
+.section-title {
+	font: var(--headline5);
+	margin: 0;
+}
+
+.section-description {
+	font: var(--body2-regular);
+	color: var(--grey);
+	margin: 0;
+}
+
+.section-title.is-white,
+.section-description.is-white {
+	color: var(--white);
+}
