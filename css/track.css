@@ -1,0 +1,13 @@
+.track {
+	padding-block-start: 4rem;
+	padding-block-end: 3.5469rem;
+	background: var(--black);
+}
+
+.track-details {
+	padding-inline-end: 1.25rem;
+	padding-inline-start: 1.25rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}

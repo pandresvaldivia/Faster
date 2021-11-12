@@ -1,0 +1,24 @@
+.range {
+	background: #e8e8e8;
+	inline-size: 94.4%;
+	block-size: 2.5rem;
+	border-radius: 100px 0 0 100px;
+	-webkit-border-radius: 100px 0 0 100px;
+	-moz-border-radius: 100px 0 0 100px;
+	-ms-border-radius: 100px 0 0 100px;
+	-o-border-radius: 100px 0 0 100px;
+	margin-inline-start: auto;
+	margin-block-end: 4rem;
+	margin-block-start: 2.5rem;
+}
+
+.range-progress {
+	background: #2fb464;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	block-size: 100%;
+	inline-size: 60%;
+}
