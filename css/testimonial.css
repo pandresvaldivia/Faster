@@ -2,6 +2,7 @@
 	background: var(--grey10);
 	padding-block-start: 5rem;
 	padding-block-end: 12.5rem;
+	position: relative;
 }
 
 .testimonial-title {

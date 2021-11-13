@@ -1,0 +1,38 @@
+.signup {
+	position: relative;
+	inset-block-end: 5.875rem;
+}
+
+.signup-content {
+	background: var(--white);
+	padding-inline-end: 2rem;
+	padding-inline-start: 2rem;
+	padding-block-start: 1.5rem;
+	padding-block-end: 1.5rem;
+	border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
+	-moz-border-radius: 0.5rem;
+	-ms-border-radius: 0.5rem;
+	-o-border-radius: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	text-align: center;
+	align-items: center;
+}
+
+.description p {
+	margin: 0;
+	font: var(--body2-regular);
+	color: var(--grey);
+}
+
+.signup-title {
+	margin: 0;
+	margin-block-end: 12px;
+	font: var(--headline5);
+}
+
+.signup a {
+	inline-size: 16rem;
+}

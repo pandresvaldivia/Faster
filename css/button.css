@@ -12,11 +12,10 @@
 	-moz-border-radius: 0.5rem;
 	-ms-border-radius: 0.5rem;
 	-o-border-radius: 0.5rem;
+	box-sizing: border-box;
 }
 
 .button.is-black {
-	padding-inline-end: 61px;
-	padding-inline-start: 61px;
 	background: var(--black);
 	border: none;
 }
