@@ -2,8 +2,6 @@
 	background: url('../assets/images/background.png') no-repeat;
 	background-size: cover;
 	block-size: 48.3125rem;
-	padding-inline-end: 1.25rem;
-	padding-inline-start: 1.25rem;
 	padding-block-start: 6.9375rem;
 	box-sizing: border-box;
 }
