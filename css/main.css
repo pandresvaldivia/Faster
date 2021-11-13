@@ -2,7 +2,9 @@
 	--primary: #fed941;
 	--white: #ffffff;
 	--grey: #808080;
+	--grey10: #eceef1;
 	--black: #000000;
+	--black10: #333333;
 	--fontBase: 'Inter', sans-serif;
 	--headline3: extra bold 2.875rem/3.5rem var(--fontBase);
 	--headline2: 700 3rem/3.625rem var(--fontBase);
