@@ -26,11 +26,13 @@
 
 	.testimonial-title {
 		font: var(--headline2);
+		margin-bottom: 5rem;
 	}
 
 	.testimonial-slider {
 		overflow-x: auto;
 		flex-direction: row;
 		gap: 1.5rem;
+		padding-block-start: 3.1875rem;
 	}
 }

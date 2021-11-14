@@ -57,3 +57,11 @@
 	font: var(--body1-bold);
 	color: var(--black);
 }
+
+@media screen and (min-width: 768px) {
+	.card {
+		inline-size: 426px;
+		block-size: 439px;
+		flex-shrink: 0;
+	}
+}
