@@ -16,6 +16,7 @@
 	-ms-transition: clip-path 0.5s;
 	-o-transition: clip-path 0.5s;
 	-webkit-transition: clip-path 0.5s;
+	overflow: hidden;
 }
 
 .menu.is-visible {
