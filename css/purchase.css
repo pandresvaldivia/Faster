@@ -9,8 +9,17 @@
 }
 
 .purchase-details {
-	margin-block-end: 4rem;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
+	padding-block-end: 4rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+	max-inline-size: 28.625rem;
+}
+
+@media screen and (min-width: 768px) {
+	.purchase {
+		padding-block-start: 12.9375rem;
+	}
 }

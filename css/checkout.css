@@ -30,6 +30,8 @@
 	}
 
 	.checkout-details {
+		margin-inline-end: auto;
+		margin-inline-start: auto;
 		padding-block-end: 7.75rem;
 	}
 }
