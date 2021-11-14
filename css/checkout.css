@@ -15,6 +15,7 @@
 .checkout-cover {
 	margin: 0;
 	inline-size: 100%;
+	overflow: hidden;
 }
 
 .checkout-cover img {
@@ -36,8 +37,16 @@
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 	.checkout-details {
 		margin: 0;
+	}
+
+	.checkout-cover {
+		border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+		-moz-border-radius: 0.5rem;
+		-ms-border-radius: 0.5rem;
+		-o-border-radius: 0.5rem;
 	}
 }

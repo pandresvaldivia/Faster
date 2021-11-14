@@ -29,3 +29,11 @@
 		margin-block-start: 3.75rem;
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.range {
+		margin-inline-start: 1.875rem;
+		inline-size: calc(100% - 1.875rem);
+		grid-column: 3/-1;
+	}
+}

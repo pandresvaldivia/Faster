@@ -1,9 +1,12 @@
 .brandsSection {
-	block-size: 40.75rem;
+	padding-block-end: 4rem;
+	padding-block-start: 17.1875rem;
+}
+
+.brandsSection-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-block-end: 4rem;
 	justify-content: flex-end;
 	box-sizing: border-box;
 	gap: 1.5rem;
@@ -22,4 +25,23 @@
 	block-size: 100%;
 	inline-size: auto;
 	vertical-align: middle;
+}
+
+@media screen and (min-width: 768px) {
+	.brandsSection-content {
+		flex-direction: row;
+		justify-content: center;
+		gap: 0;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.brandsSection {
+		padding-block-start: 2.75rem;
+		padding-block-end: 8rem;
+	}
+
+	.brandsSection-content {
+		justify-content: flex-start;
+	}
 }
