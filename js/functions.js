@@ -12,4 +12,12 @@ function menuHandle() {
 	}
 }
 
-export { menuHandle };
+function resetMenu() {
+	if ($burgerBtn.classList.contains('is-pressed')) {
+		$burgerBtn.classList.remove('is-pressed');
+		$menu.classList.remove('is-visible');
+		$body.style.overflowY = 'auto';
+	}
+}
+
+export { menuHandle, resetMenu };

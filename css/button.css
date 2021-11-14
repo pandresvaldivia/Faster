@@ -23,20 +23,14 @@
 .button.is-login {
 	color: var(--black);
 	background: var(--white);
+	border: none;
 }
 
-/* .button.is-login {
-	font: var(--button);
-	padding-block-end: 0.3125rem;
-	padding-block-start: 0.3125rem;
-	padding-inline-end: 1rem;
-	padding-inline-start: 1rem;
-	color: var(--black);
-	background: var(--white);
-	text-decoration: none;
-	border-radius: 0.5rem;
-	-webkit-border-radius: 0.5rem;
-	-moz-border-radius: 0.5rem;
-	-ms-border-radius: 0.5rem;
-	-o-border-radius: 0.5rem;
-} */
+@media screen and (min-width: 768px) {
+	.button.is-login {
+		padding-block-end: 0.3125rem;
+		padding-block-start: 0.3125rem;
+		padding-inline-end: 1rem;
+		padding-inline-start: 1rem;
+	}
+}
