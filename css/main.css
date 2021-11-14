@@ -7,7 +7,7 @@
 	--black: #000000;
 	--black10: #333333;
 	--fontBase: 'Inter', sans-serif;
-	--headline3: extra bold 2.875rem/3.5rem var(--fontBase);
+	--headline3: 800 2.875rem/3.5rem var(--fontBase);
 	--headline2: 700 3rem/3.625rem var(--fontBase);
 	--headline4: 700 1.75rem / normal var(--fontBase);
 	--headline5: 700 1.5625rem / normal var(--fontBase);

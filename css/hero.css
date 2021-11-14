@@ -1,8 +1,8 @@
 .hero {
 	background: url('../assets/images/background.png') no-repeat;
 	background-size: cover;
-	block-size: 48.3125rem;
-	padding-block-start: 6.9375rem;
+	block-size: 43.5rem;
+	padding-block-start: 2rem;
 	box-sizing: border-box;
 }
 
@@ -23,4 +23,20 @@
 	margin: 0;
 	color: var(--grey);
 	font: var(--body2-regular);
+}
+
+@media screen and (min-width: 768px) {
+	.hero {
+		block-size: 50.875rem;
+		padding-block-start: 12.9375rem;
+	}
+
+	.hero-title {
+		font: var(--headline3);
+	}
+
+	.hero-description {
+		font: var(--body1-regular);
+		inline-size: 36.25rem;
+	}
 }
