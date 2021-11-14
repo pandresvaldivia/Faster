@@ -23,3 +23,9 @@
 		padding-block-start: 12.9375rem;
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.purchase-details {
+		margin: 0;
+	}
+}

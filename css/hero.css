@@ -4,6 +4,7 @@
 	block-size: 43.5rem;
 	padding-block-start: 2rem;
 	box-sizing: border-box;
+	grid-area: hero;
 }
 
 .hero-details {
@@ -38,5 +39,19 @@
 	.hero-description {
 		font: var(--body1-regular);
 		inline-size: 36.25rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.hero {
+		grid-column: 1/-1;
+		grid-row: 1;
+	}
+
+	.hero-details {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		align-items: flex-start;
 	}
 }

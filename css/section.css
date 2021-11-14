@@ -23,3 +23,16 @@
 		font: var(--body1-regular);
 	}
 }
+
+@media screen and (min-width: 1024px) {
+	.section {
+		display: grid;
+		grid-column: 1/-1;
+		grid-template-columns: var(--grid-columns);
+	}
+
+	.section-content {
+		padding-inline-start: 1.875rem;
+		grid-column: 3/4;
+	}
+}

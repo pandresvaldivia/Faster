@@ -1,3 +1,11 @@
 .gridContainer {
 	position: relative;
 }
+
+@media (min-width: 1024px) {
+	.gridContainer {
+		display: grid;
+		grid-template-columns: var(--grid-columns);
+		grid-template-areas: '. phone hero .';
+	}
+}

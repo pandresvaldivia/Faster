@@ -6,6 +6,7 @@
 	--grey20: #a5a5a5;
 	--black: #000000;
 	--black10: #333333;
+	--grid-columns: 1fr 264px 707px 1fr;
 	--fontBase: 'Inter', sans-serif;
 	--headline3: 800 2.875rem/3.5rem var(--fontBase);
 	--headline2: 700 3rem/3.625rem var(--fontBase);
