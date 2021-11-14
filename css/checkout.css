@@ -4,10 +4,11 @@
 }
 
 .checkout-details {
-	margin-block-start: 4rem;
-	margin-block-end: 4rem;
+	padding-block-start: 4rem;
+	padding-block-end: 4rem;
 	display: flex;
 	flex-direction: column;
+	max-inline-size: 38.1875rem;
 	gap: 1rem;
 }
 
@@ -20,4 +21,15 @@
 	vertical-align: middle;
 	inline-size: 100%;
 	block-size: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.checkout {
+		background: var(--white);
+		padding: 0;
+	}
+
+	.checkout-details {
+		padding-block-end: 7.75rem;
+	}
 }
