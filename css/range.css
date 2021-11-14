@@ -22,3 +22,10 @@
 	block-size: 100%;
 	inline-size: 60%;
 }
+
+@media screen and (min-width: 768px) {
+	.range {
+		inline-size: 80%;
+		margin-block-start: 3.75rem;
+	}
+}
