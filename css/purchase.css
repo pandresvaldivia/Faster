@@ -27,9 +27,11 @@
 @media screen and (min-width: 1024px) {
 	.purchase {
 		background-position: bottom right;
+		padding-block-end: 21.6875rem;
 	}
 
 	.purchase-details {
 		margin: 0;
+		padding: 0;
 	}
 }
