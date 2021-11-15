@@ -32,7 +32,6 @@
 	}
 
 	.section-content {
-		padding-inline-start: 1.875rem;
 		grid-column: 3/4;
 	}
 }

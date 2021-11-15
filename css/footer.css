@@ -1,6 +1,8 @@
 .footer {
 	background: var(--black);
 	padding-block-end: 8rem;
+	padding-inline-end: 1.25rem;
+	padding-inline-start: 1.25rem;
 }
 
 .footer-content {
@@ -73,5 +75,22 @@ a.is-github:hover {
 	.footer-content {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.footer {
+		padding-inline-end: 4rem;
+		padding-inline-start: 4rem;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.footer-content {
+		max-inline-size: 1400px;
+		gap: 8rem;
+		justify-content: flex-start;
+		margin-inline-end: auto;
+		margin-inline-start: auto;
 	}
 }

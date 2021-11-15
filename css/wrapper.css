@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 1024px) {
 	.wrapper {
-		padding: 0;
+		padding-inline-end: 1.875rem;
+		padding-inline-start: 1.875rem;
 	}
 }

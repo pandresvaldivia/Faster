@@ -1,11 +1,11 @@
 .phone {
 	position: absolute;
-	top: 27.6875rem;
+	inset-block-start: 27.6875rem;
 	inline-size: 100%;
 	display: flex;
 	justify-content: center;
-	block-size: 31.4531rem;
 	grid-area: phone;
+	block-size: 31.4531rem;
 }
 
 .phone-image {
@@ -32,17 +32,35 @@
 
 @media screen and (min-width: 768px) {
 	.phone {
-		top: 35.125rem;
+		inset-block-start: 35.125rem;
 	}
 }
 
 @media (min-width: 1024px) {
 	.phone {
 		position: sticky;
-		top: 0;
+		inset-block-start: 0;
+		padding-block-start: 124px;
 	}
 
 	.phone.is-copy {
 		display: none;
+	}
+}
+
+@media (min-width: 1400px) {
+	.phone {
+		block-size: 47.6563rem;
+	}
+
+	.phone-image {
+		inline-size: 25rem;
+	}
+
+	.phone-image video {
+		inset-block-start: 6.75rem;
+		inset-inline-start: 2.9375rem;
+		inline-size: 19.0625rem;
+		block-size: 33.625rem;
 	}
 }

@@ -41,35 +41,37 @@
 	</head>
 	<body class="body">
 		<header class="header">
-			<figure class="header-logo">
-				<a href="./index.html" aria-current="page">
-					<img
-						src="./assets/images/logo.png"
-						width="92"
-						height="19.2"
-						alt="Logo de Faster"
-					/>
-				</a>
-			</figure>
-			<nav class="menu">
-				<ul class="menu-list">
-					<li><a class="menu-item" href="#">How Fast?</a></li>
-					<li><a class="menu-item" href="#">Sellers</a></li>
-					<li><a class="menu-item" href="#">Store</a></li>
-					<li><a class="menu-item" href="#">Docs</a></li>
-					<li><a class="menu-item" href="#">Help</a></li>
-				</ul>
+			<div class="header-content">
+				<figure class="header-logo">
+					<a href="./index.html" aria-current="page">
+						<img
+							src="./assets/images/logo.png"
+							width="92"
+							height="19.2"
+							alt="Logo de Faster"
+						/>
+					</a>
+				</figure>
+				<nav class="menu">
+					<ul class="menu-list">
+						<li><a class="menu-item" href="#">How Fast?</a></li>
+						<li><a class="menu-item" href="#">Sellers</a></li>
+						<li><a class="menu-item" href="#">Store</a></li>
+						<li><a class="menu-item" href="#">Docs</a></li>
+						<li><a class="menu-item" href="#">Help</a></li>
+					</ul>
+					<a class="button is-login" href="#">Fast Login</a>
+				</nav>
 				<a class="button is-login" href="#">Fast Login</a>
-			</nav>
-			<a class="button is-login" href="#">Fast Login</a>
-			<button
-				class="burgerButton"
-				aria-label="Desplegar menu"
-				aria-pressed="false"
-				aria-expanded="false"
-			>
-				<div class="burgerButton-middle"></div>
-			</button>
+				<button
+					class="burgerButton"
+					aria-label="Desplegar menu"
+					aria-pressed="false"
+					aria-expanded="false"
+				>
+					<div class="burgerButton-middle"></div>
+				</button>
+			</div>
 		</header>
 		<main class="gridContainer">
 			<div class="phone">
@@ -350,81 +352,79 @@
 			</div>
 		</section>
 		<footer class="footer">
-			<div class="wrapper">
-				<section class="signup" aria-label="Sign up section">
-					<article class="signup-content">
-						<div class="description">
-							<h3 class="signup-title">It's time to go Fast</h3>
-							<p>Sign up for Fast Checkout today</p>
-						</div>
-						<a class="button is-black" href="#">Fast Sign up</a>
-					</article>
-				</section>
-				<div class="footer-content">
-					<article class="footer-info">
-						<div class="footer-copyright">
-							<figure class="footer-logo">
-								<img
-									src="./assets/images/logo.png"
-									height="19.2"
-									width="92"
-									alt="Faster logo"
-								/>
-							</figure>
-							<small class="footer-caption">2021 Fast AF, Inc.</small>
-						</div>
-						<div class="footer-socialNetwork" aria-label="Social networks">
-							<a
-								class="is-twitter"
-								href="https://twitter.com/PandresDev"
-								target="_blank"
-								rel="noreferrer"
-								aria-label="Twitter"
-								><i class="icon-twitter" aria-hidden="true"></i
-							></a>
-							<a
-								class="is-github"
-								href="https://github.com/pandresvaldivia/"
-								target="_blank"
-								rel="noreferrer"
-								aria-label="Github"
-								><i class="icon-github" aria-hidden="true"></i
-							></a>
-							<a
-								class="is-linkedin"
-								href="https://www.linkedin.com/in/pablo-andr%C3%A9s-valdivia-cuzcano-891bb5170/"
-								target="_blank"
-								rel="noreferrer"
-								aria-label="Linkedin"
-								><i class="icon-linkedin" aria-hidden="true"></i
-							></a>
-						</div>
-					</article>
-					<nav class="footerMenu" aria-labelledby="product-menu">
-						<h3 class="footerMenu-title" id="product-menu">Product</h3>
-						<ul class="footerMenu-content">
-							<li><a href="#">Checkout</a></li>
-							<li><a href="#">Sellers</a></li>
-							<li><a href="#">Partners</a></li>
-							<li><a href="#">Pricing</a></li>
-							<li><a href="#">Seller Stories</a></li>
-							<li><a href="#">Privacy & Security</a></li>
-							<li><a href="#">Customer Stories</a></li>
-							<li><a href="#">Help</a></li>
-						</ul>
-					</nav>
-					<nav class="footerMenu" aria-labelledby="company-menu">
-						<h3 class="footerMenu-title" id="company-menu">Company</h3>
-						<ul class="footerMenu-content">
-							<li><a href="#">Careers</a></li>
-							<li><a href="#">Newsroom</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms of Service</a></li>
-							<li><a href="#">Responsible Disclosure</a></li>
-							<li><a href="#">Do not sell my info (California)</a></li>
-						</ul>
-					</nav>
-				</div>
+			<section class="signup" aria-label="Sign up section">
+				<article class="signup-content">
+					<div class="description">
+						<h3 class="signup-title">It's time to go Fast</h3>
+						<p>Sign up for Fast Checkout today</p>
+					</div>
+					<a class="button is-black" href="#">Fast Sign up</a>
+				</article>
+			</section>
+			<div class="footer-content">
+				<article class="footer-info">
+					<div class="footer-copyright">
+						<figure class="footer-logo">
+							<img
+								src="./assets/images/logo.png"
+								height="19.2"
+								width="92"
+								alt="Faster logo"
+							/>
+						</figure>
+						<small class="footer-caption">2021 Fast AF, Inc.</small>
+					</div>
+					<div class="footer-socialNetwork" aria-label="Social networks">
+						<a
+							class="is-twitter"
+							href="https://twitter.com/PandresDev"
+							target="_blank"
+							rel="noreferrer"
+							aria-label="Twitter"
+							><i class="icon-twitter" aria-hidden="true"></i
+						></a>
+						<a
+							class="is-github"
+							href="https://github.com/pandresvaldivia/"
+							target="_blank"
+							rel="noreferrer"
+							aria-label="Github"
+							><i class="icon-github" aria-hidden="true"></i
+						></a>
+						<a
+							class="is-linkedin"
+							href="https://www.linkedin.com/in/pablo-andr%C3%A9s-valdivia-cuzcano-891bb5170/"
+							target="_blank"
+							rel="noreferrer"
+							aria-label="Linkedin"
+							><i class="icon-linkedin" aria-hidden="true"></i
+						></a>
+					</div>
+				</article>
+				<nav class="footerMenu" aria-labelledby="product-menu">
+					<h3 class="footerMenu-title" id="product-menu">Product</h3>
+					<ul class="footerMenu-content">
+						<li><a href="#">Checkout</a></li>
+						<li><a href="#">Sellers</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Seller Stories</a></li>
+						<li><a href="#">Privacy & Security</a></li>
+						<li><a href="#">Customer Stories</a></li>
+						<li><a href="#">Help</a></li>
+					</ul>
+				</nav>
+				<nav class="footerMenu" aria-labelledby="company-menu">
+					<h3 class="footerMenu-title" id="company-menu">Company</h3>
+					<ul class="footerMenu-content">
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Newsroom</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Service</a></li>
+						<li><a href="#">Responsible Disclosure</a></li>
+						<li><a href="#">Do not sell my info (California)</a></li>
+					</ul>
+				</nav>
 			</div>
 		</footer>
 		<script src="./js/main.js" type="module"></script>

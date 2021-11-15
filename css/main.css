@@ -25,3 +25,9 @@
 	margin: 0;
 	min-inline-size: 22.5rem;
 }
+
+@media screen and (min-width: 1400px) {
+	:root {
+		--grid-columns: 1fr 400px 876px 1fr;
+	}
+}

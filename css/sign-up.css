@@ -19,6 +19,10 @@
 	gap: 1.5rem;
 	text-align: center;
 	align-items: center;
+	box-sizing: border-box;
+	max-inline-size: 54.75rem;
+	margin-inline-end: auto;
+	margin-inline-start: auto;
 }
 
 .description p {

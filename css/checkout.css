@@ -43,6 +43,8 @@
 	}
 
 	.checkout-cover {
+		margin-inline-start: 1.875rem;
+		inline-size: calc(100% - 1.875rem);
 		border-radius: 0.5rem;
 		-webkit-border-radius: 0.5rem;
 		-moz-border-radius: 0.5rem;
