@@ -30,7 +30,7 @@
 	vertical-align: middle;
 }
 
-.header > .button.is-login {
+.header-content > .button.is-login {
 	display: none;
 }
 
@@ -40,7 +40,7 @@
 		position: static;
 	}
 
-	.header > .button.is-login {
+	.header-content > .button.is-login {
 		display: block;
 	}
 }

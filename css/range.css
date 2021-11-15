@@ -20,6 +20,16 @@
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	block-size: 100%;
+	inline-size: 5%;
+	will-change: inline-size;
+	transition: inline-size 1.2s ease-out;
+	-webkit-transition: inline-size 1.2s ease-out;
+	-moz-transition: inline-size 1.2s ease-out;
+	-ms-transition: inline-size 1.2s ease-out;
+	-o-transition: inline-size 1.2s ease-out;
+}
+
+.range.is-visible .range-progress {
 	inline-size: 60%;
 }
 
