@@ -20,4 +20,15 @@ function resetMenu() {
 	}
 }
 
-export { menuHandle, resetMenu };
+const myObserver = new IntersectionObserver(
+	(entries) => {
+		if (entries[0].isIntersecting) {
+			entries[0].target.classList.add('is-visible');
+		}
+	},
+	{
+		threshold: [0.75, 1],
+	}
+);
+
+export { menuHandle, resetMenu, myObserver };

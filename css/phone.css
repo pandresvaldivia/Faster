@@ -15,6 +15,36 @@
 	margin: 0;
 	background: url('../assets/images/iphone.png') no-repeat;
 	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.phone-button {
+	z-index: 1;
+	background: rgba(255, 255, 255, 0.7);
+	block-size: 52.8px;
+	inline-size: 52.8px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	color: rgba(0, 0, 0, 0.7);
+	will-change: opacity;
+	transition: opacity 0.4s;
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	-ms-transition: opacity 0.4s;
+	-o-transition: opacity 0.4s;
+}
+
+.phone-image.is-visible .phone-button {
+	opacity: 0;
 }
 
 .phone.is-copy {
