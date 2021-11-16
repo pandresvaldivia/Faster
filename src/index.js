@@ -1,5 +1,5 @@
-import { $burgerBtn, $brandSection, $range, $phones } from './selectors.js';
-import { menuHandle, resetMenu, myObserver } from './functions.js';
+import { $burgerBtn, $brandSection, $range, $phones } from './js/selectors.js';
+import { menuHandle, resetMenu, myObserver } from './js/functions.js';
 
 $burgerBtn.addEventListener('click', menuHandle);
 
