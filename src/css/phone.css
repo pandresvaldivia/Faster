@@ -13,7 +13,7 @@
 	inline-size: 16.5rem;
 	block-size: inherit;
 	margin: 0;
-	background: url('../assets/images/iphone.png') no-repeat;
+	background: url('../assets/images/iphone_large.webp') no-repeat;
 	background-size: cover;
 	display: flex;
 	justify-content: center;
