@@ -1,3 +1,4 @@
+// JS modules
 import { $burgerBtn, $brandSection, $range, $phones } from './js/selectors.js';
 import { menuHandle, resetMenu, myObserver } from './js/functions.js';
 
